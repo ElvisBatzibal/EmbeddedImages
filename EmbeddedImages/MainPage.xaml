@@ -3,14 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:EmbeddedImages"
              mc:Ignorable="d"
              x:Class="EmbeddedImages.MainPage">
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Welcome to Xamarin.Forms 101: Using Embedded Images !" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Image VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Source="{local:ImageResource EmbeddedImages.images.monkeyXamarin.jpg}">
+            
+        </Image>
     </StackLayout>
 
 </ContentPage>
