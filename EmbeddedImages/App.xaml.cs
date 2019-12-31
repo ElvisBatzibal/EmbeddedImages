@@ -6,6 +6,9 @@ namespace EmbeddedImages
 {
     public partial class App : Application
     {
+        /// <summary>
+        /// Inicialization App
+        /// </summary>
         public App()
         {
             InitializeComponent();
